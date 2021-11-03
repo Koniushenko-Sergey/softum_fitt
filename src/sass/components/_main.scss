@@ -1,0 +1,112 @@
+/* MAIN MAIN MAINM  */
+
+.main {
+  padding-top: 40px;
+}
+.main__title {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+.title__border {
+  width: 60px;
+  height: 5px;
+  background-color: #59253e;
+}
+
+.wrapper-trainer {
+  /* display: flex; */
+}
+
+.trainer {
+  padding-top: 95px;
+  padding-bottom: 75px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.trainer__thumb img {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  top: 3px;
+}
+.trainer__description {
+  background-color: #fff;
+}
+.trainer__name {
+  background-color: #fff;
+  padding: 20px 0 0 10px;
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #0d0d0d;
+}
+.description__title {
+  padding-left: 10px;
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #332f3c;
+}
+.description__text {
+  padding: 10px 10px 60px 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+.description__button {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  width: 39%;
+  height: 36px;
+  background: #f24b88;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+  margin-left: 57%;
+  margin-bottom: 5%;
+  color: #ffffff;
+  cursor: pointer;
+}
+.description__button:hover {
+  background-color: #7a0152;
+  transition: ease-in-out 0.2s;
+}
+.mobile__btn--container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile__btn {
+  width: 90px;
+  height: 36px;
+  margin: 20px 0;
+  display: none;
+}
+.bottom__line {
+  margin: 0px auto;
+  width: 98%;
+  height: 1px;
+  background-color: #f2f2f2;
+}

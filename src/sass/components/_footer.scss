@@ -1,0 +1,139 @@
+/* foooooooooter */
+
+.footer {
+  padding-bottom: 65px;
+}
+.container__wrapp {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 37px;
+}
+.logo__link {
+  display: flex;
+  flex-direction: column;
+}
+.footer__logo--description {
+  padding-top: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.footer__link {
+  display: flex;
+  padding-bottom: 15px;
+}
+.svg__link {
+  width: 39px;
+  height: 39px;
+  margin: 0 4px;
+  border: 9px solid transparent;
+  border-radius: 50%;
+  fill: #fff;
+  background: #59253e;
+}
+.svg__link:hover {
+  transition: ease-in-out 0.2s;
+  background-color: #f2f2f2;
+  fill: black;
+}
+
+.wrapper__list {
+  display: flex;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+}
+.footer__links-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.links-title__name {
+  padding-top: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.links-title__name:hover {
+  color: #f24b88;
+  transition: ease-in-out 0.2s;
+}
+
+.form__lable {
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.form__lable:hover {
+  color: #f24b88;
+  transition: ease-in-out 0.2s;
+}
+.form__input {
+  width: 100%;
+  height: 36px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+.subscribe__button {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  width: 98px;
+  height: 36px;
+  background: #f24b88;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.subscribe__button:hover {
+  background-color: #7a0152;
+  transition: ease-in-out 0.2s;
+}
+
+.under__footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.copyring {
+  padding-top: 35px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}

@@ -1,0 +1,245 @@
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    max-width: 720px;
+  }
+  .body {
+    background-color: green;
+  }
+  .col-xs-2 {
+    flex: 0 0 16.6666%;
+    max-width: 16.666%;
+  }
+  .col-xs-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-xs-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+  .col-xs-5 {
+    flex: 0 0 41.6666%;
+    max-width: 41.666%;
+  }
+  .col-xs-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-xs-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+  .col-xs-8 {
+    flex: 0 0 66.6666%;
+    max-width: 66.6666%;
+  }
+  .col-xs-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-xs-10 {
+    flex: 0 0 83.3333%;
+    max-width: 83.3333%;
+  }
+  .col-xs-11 {
+    flex: 0 0 83.3333%;
+    max-width: 83.3333%;
+  }
+  .col-xs-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .xs-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .header {
+    margin-top: 0;
+    padding: 11px 0px;
+  }
+  .header__logo img {
+    width: 107px;
+    height: 55px;
+  }
+  .nav__mobile--menu {
+    width: 25px;
+    height: 30px;
+    position: relative;
+    padding-bottom: 30px;
+    left: 80%;
+    margin-top: 15px;
+    // display: block;
+  }
+  // .nav__mobile---menu span {
+  //   height: 2px;
+  //   background-color: rgb(255, 255, 255);
+  //   position: absolute;
+  //   left: 0;
+  //   top: 0;
+  //   right: 0;
+  //   transition: 0.025s ease-in-out;
+  // }
+
+  .nav__mobile--menu--btn {
+    display: block;
+    border: none;
+    background-color: #1f1c26;
+  }
+
+  .nav__mobile--svg {
+    fill: #fff;
+  }
+
+  .navigation {
+    transform: translateX(150%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 143px;
+    height: 250px;
+    max-width: 200px;
+    margin-top: 45px;
+  }
+  .header__list a {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .hidden-menu {
+    opacity: 0;
+    visibility: hidden;
+  }
+  //
+  .mobile__btn {
+    display: block;
+  }
+  .trainer__description {
+    display: none;
+  }
+  .trainer {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .trainer__name {
+    padding-top: 0;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+  }
+  .trainer__thumb img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .main__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .border-bottom {
+    display: inline-block;
+    width: 131px;
+  }
+  .li-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom__line {
+    margin-top: 30px;
+  }
+  .footer__logo--description {
+    text-align: center;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper__list {
+    justify-content: center;
+  }
+
+  .footer__links {
+    padding: 0 35px;
+    padding-top: 20px;
+  }
+  .container__wrapp {
+    padding-bottom: 35px;
+  }
+  .form {
+    padding-top: 30px;
+  }
+  .form__lable {
+    text-align: center;
+  }
+  .copyring {
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 720px;
+  }
+  .col-sm-2 {
+    flex: 0 0 16.6666%;
+    max-width: 16.666%;
+  }
+  .col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-sm-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+  .col-sm-5 {
+    flex: 0 0 41.6666%;
+    max-width: 41.666%;
+  }
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-sm-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+  .col-sm-8 {
+    flex: 0 0 66.6666%;
+    max-width: 66.6666%;
+  }
+  .col-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-sm-10 {
+    flex: 0 0 83.3333%;
+    max-width: 83.3333%;
+  }
+  .col-sm-11 {
+    flex: 0 0 83.3333%;
+    max-width: 83.3333%;
+  }
+  .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
